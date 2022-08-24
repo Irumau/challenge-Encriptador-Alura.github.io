@@ -1,0 +1,189 @@
+body{
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background: #E5E5E5;
+}
+
+.logo{
+    margin: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    background: #E5E5E5;
+}
+
+main section{
+    background: #E5E5E5;   
+}
+
+
+
+.input-texto{
+    margin: 0 50px 0 0;
+    height: 400px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    background-color: #E5E5E5;
+    color: #0A3871;
+}
+
+
+.input-texto::placeholder{
+    color: #0A3871;
+}
+
+
+
+.botones p{
+    margin: 10px;
+    font-size: 12px;
+}
+
+
+.botones button{
+    margin-left: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+}
+
+
+#encriptar{
+    background: #0A3871;
+    color: #fff;
+    transition: 1s ease;
+}
+
+#encriptar:hover{
+    background: #0e50a1;
+    transform: scale(1.05);
+}
+
+#desencriptar{
+    color: #0A3871;
+    background: #80858c;
+    transition: 1s ease;
+}
+
+#desencriptar:hover{
+    background: #b9c1ca;
+    transform: scale(1.05);
+}
+
+
+.texto-recibido{
+    height: 400px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(../assets/Muñeco.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 1.5em;
+    color: #0A3871;
+}
+
+
+.texto-recibido::placeholder{
+    color: #0A3871;
+}
+
+.info{
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    visibility: visible;
+}
+
+.info p:first-child{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.info p:last-child{
+    font-size: 0.8em;
+}
+
+
+.copiar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    color: #0A3871;
+    background: #80858c;
+    transition: 1s all;
+
+}
+
+
+.copiar:hover{
+    background: #b9c1ca;
+    transform: scale(1.05);
+}
+
+
+footer{
+    background: #0A3871;
+    height: 15vh;
+    margin-top: auto;
+}
+
+
+footer h2{
+    margin: 20px 0 0 0 ;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #E5E5E5;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px 0 0 0;
+}
+
+.redes{
+    padding-left: 10px; 
+    text-align: center;
+}
+
+.redes i{
+    width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #E5E5E5;
+    color: #0A3871;
+    transition: 1s ease;
+}
+
+.redes i:hover{
+    background-color: #80858c;
+    transform: scale(1.05);
+}
+
+.redes a{
+    text-decoration: none;
+}
